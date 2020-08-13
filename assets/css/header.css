@@ -1,0 +1,59 @@
+header{
+    background: url(../img/backHeader.png) center no-repeat;
+    background-size: cover;
+}
+
+.header-title h1{
+    font-family: 'Lora',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 130%;
+    color: #222222;
+    max-width: 515px;
+    margin-left: auto;
+}
+
+.header-title h1 span{
+    color:#000;
+}
+
+.header-title h2{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 39px;
+    color: #414141;
+    max-width: 481px;
+    margin-left: auto;
+}
+
+.btn{
+    font-family: 'Roboto',
+    sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: #E80000;
+    border-radius: 10px;
+    padding: 25px 68px;
+}
+
+@media (max-width:700px){
+    .header-title h1{
+        font-size: 30px;
+    }
+    .header-title h2{
+        font-size: 20px;
+        line-height: 22px;
+        max-width: 300px;
+    }
+    .btn {
+        font-size: 17px;
+        padding: 3px 31px;
+    }
+}
